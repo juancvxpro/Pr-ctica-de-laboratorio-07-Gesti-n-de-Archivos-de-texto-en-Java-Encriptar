@@ -10,5 +10,5 @@ package ec.ups.edu.controlador;
  * @author Casa
  */
 public class ControladorEncriptar {
-    
+
 }
