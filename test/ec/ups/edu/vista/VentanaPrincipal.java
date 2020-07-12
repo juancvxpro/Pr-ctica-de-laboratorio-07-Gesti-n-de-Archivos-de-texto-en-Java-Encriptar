@@ -6,6 +6,7 @@
 package ec.ups.edu.vista;
 
 import ec.ups.edu.controlador.ControladorArchivo;
+import ec.ups.edu.controlador.ControladorEncriptar;
 import javax.swing.JTextArea;
 
 /**
@@ -13,12 +14,14 @@ import javax.swing.JTextArea;
  * @author Casa
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
-
+    
     ControladorArchivo controladorArchivo;
-
+    ControladorEncriptar controladorEncriptar;
+    
     public VentanaPrincipal() {
         initComponents();
         controladorArchivo = new ControladorArchivo(this);
+        controladorEncriptar = new ControladorEncriptar();
     }
 
     /**
@@ -65,6 +68,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
 
         btnEncriptar.setText("Encriptar");
+        btnEncriptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEncriptarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -108,14 +116,18 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private void btnAbrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAbrirActionPerformed
         areaDeTexto.append(controladorArchivo.abrirArchivo());
     }//GEN-LAST:event_btnAbrirActionPerformed
-
+    
     private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
         controladorArchivo.guardarArchivo(areaDeTexto.getText());
     }//GEN-LAST:event_btnGuardarActionPerformed
-
+    
     private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarActionPerformed
         areaDeTexto.setText("");
     }//GEN-LAST:event_btnLimpiarActionPerformed
+    
+    private void btnEncriptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEncriptarActionPerformed
+        areaDeTexto.setText(controladorEncriptar.encriptar(areaDeTexto.getText()));
+    }//GEN-LAST:event_btnEncriptarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -149,7 +161,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             new VentanaPrincipal().setVisible(true);
         });
     }
-
+    
     public JTextArea getAreaDeTexto() {
         return areaDeTexto;
     }
