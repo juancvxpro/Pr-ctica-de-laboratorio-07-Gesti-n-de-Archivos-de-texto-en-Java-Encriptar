@@ -57,19 +57,19 @@ public class ControladorEncriptar {
         map.put('R', 'W');
         map.put('S', 'w');
         map.put('T', 'v');
-        map.put('U', 'b');
+        map.put('U', 'v');
         map.put('V', 'Ñ');
         map.put('W', 'g');
         map.put('X', 'G');
-        map.put('Y', 'i');
+        map.put('Y', 'f');
         map.put('Z', 'F');
 
     }
 
     public void cargarNumeros() {
-        map.put('1', 'p');
+        map.put('1', 'v');
         map.put('2', '♦');
-        map.put('3', 'm');
+        map.put('3', '♠');
         map.put('4', 'E');
         map.put('5', 'k');
         map.put('6', '@');
@@ -86,8 +86,11 @@ public class ControladorEncriptar {
         for (int i = 0; i < cadena.length(); i++) {
             for (Map.Entry<Character, Character> entry : map.entrySet()) {
                 char c = cadena.charAt(i);
-                if (c == entry.getKey()) {
+        
+                if (c==entry.getKey()) {
+
                     encript += entry.getValue();
+
                 }
 
             }
