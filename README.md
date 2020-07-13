@@ -18,17 +18,17 @@
 
 *2.1 Paquetes de la practica*
 
-[Paquetes de la Practica](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/tree/master/test/ec/ups/edu)
+[Paquetes de la Practica](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/tree/master/src/ec/ups/edu)
 
 *2.1.1 Clase del paquete controlador*
 
-[Clase ControladorArchivos](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/test/ec/ups/edu/controlador/ControladorArchivo.java)
+[Clase ControladorArchivos](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/src/ec/ups/edu/controlador/ControladorArchivo.java)
 
-[Clase ControladorEncriptar](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/test/ec/ups/edu/controlador/ControladorEncriptar.java)
+[Clase ControladorEncriptar](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/src/ec/ups/edu/controlador/ControladorEncriptar.java)
 
 *2.1.2 Clase del paquete vista*
 
-[Clase VentanaPrincipal](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/test/ec/ups/edu/vista/VentanaPrincipal.java)
+[Clase VentanaPrincipal](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/src/ec/ups/edu/vista/VentanaPrincipal.java)
 
 ![Interfaz de la VentanaPrincipal](https://github.com/Paul-Guapucal/ssPractica07/blob/master/ssVentanaEncriptar.png)
 
