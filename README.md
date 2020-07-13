@@ -14,23 +14,21 @@
 
 ![screan del respositorio encriptar](
 
-![screan del respositorio desencriptar](
-
 **2. Desarrollar una aplicación que permita encriptar y desencriptar documentos de texto usando dos aplicaciones cliente.**
 
 *2.1 Paquetes de la practica*
 
-[Paquetes de la Practica](
+[Paquetes de la Practica](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/tree/master/test/ec/ups/edu)
 
 *2.1.1 Clase del paquete controlador*
 
-[Clase ControladorArchivos](
+[Clase ControladorArchivos](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/test/ec/ups/edu/controlador/ControladorArchivo.java)
 
-[Clase ControladorEncriptar](
+[Clase ControladorEncriptar](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/test/ec/ups/edu/controlador/ControladorEncriptar.java)
 
 *2.1.2 Clase del paquete vista*
 
-[Clase VentanaPrincipal](
+[Clase VentanaPrincipal](https://github.com/juancvxpro/Pr-ctica-de-laboratorio-07-Gesti-n-de-Archivos-de-texto-en-Java-Encriptar/blob/master/test/ec/ups/edu/vista/VentanaPrincipal.java)
 
 ![Interfaz de la VentanaPrincipal](
 
